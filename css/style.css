@@ -1,0 +1,144 @@
+body {
+    background-color:rgb(200,200,200);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+div {
+    color:aliceblue;
+    background-color:rgb(175, 47, 47); padding:20px; color:white;
+    height:auto;
+    border:2px black solid;
+    border-radius:10px;
+}
+.banner {
+    background-color:rgb(165, 136, 136); padding:20px 20px 30px 40px; color:white;
+    height: auto;
+    /* margin-top: 60px */
+    margin: 10px;
+    /* 水平 */
+    text-align: center;
+    /* 垂直 */
+    line-height: 30px
+}
+/* 設定 div id */
+#container {
+    width:80%;
+    margin: 0px auto;
+}
+
+.text-1 {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0px 20px;
+}
+
+.text-2 {
+    background-color: tomato;
+    color:yellow;
+    border: 2px solid salmon;
+    padding: 10px;
+}
+
+.text-3 {
+    border-radius: 5px;
+    color:pink;
+    padding:20px;
+}
+
+#picture{
+    text-align: center;
+}
+
+#picture img{
+    border-radius:10px;
+    margin: 0px 10px;
+}
+
+.sub-title {
+    background-color:purple;
+    border-radius:10px;
+    color:white;
+    padding:5px;
+}
+
+.block-1 {
+    text-align: center;
+}
+
+.block-1 img{
+    width:100%;
+}
+
+.block-1 ol {
+    list-style-type:none;
+    border:2px dashed cornflowerblue;
+    /* 上下左右間隔 */
+    padding:10px; 
+}
+
+.block-2{
+    font-size:20px;
+    font-style:italic;
+    background-color:darksalmon;
+    border-radius: 10px;
+    padding:10px;
+    color: firebrick;
+}
+
+.block-2 a{
+    color:forestgreen;
+}
+
+
+.block-3 table{
+    border:2px solid black;
+    width : 90%;
+    margin: 0px auto;
+    height: 300px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.block-3>table>thead>tr>th{
+    background-color: rgb(57, 117, 0);
+}
+
+.block-3 tr{
+    background-color: pink;
+    /* text-align: center; */
+    font-size:16px;
+}
+
+.block-4{
+    background-color: rgb(56, 65, 117);
+    padding: 20px;
+    text-align: center;
+}
+
+form{
+    /* 上下20px  左右0px */
+    padding:20px 0 px;
+    background-color: cornflowerblue;
+}
+
+input, label, textarea, button{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    width:100px;
+    background-color: green;
+    color:white;
+}
+
+#idol{
+    padding:20px;
+}
+
+#idol img{
+    border-radius:10px;
+    float:right;
+    margin: 20px;
+}
+
