@@ -5,16 +5,16 @@ body {
 }
 div {
     color:aliceblue;
-    background-color:rgb(175, 47, 47); padding:20px; color:white;
+    background-color:rgb(0, 0, 0); padding:20px; color:white;
     height:auto;
-    border:2px black solid;
+    border:2px rgb(250, 250, 250) solid;
     border-radius:10px;
 }
 .banner {
-    background-color:rgb(165, 136, 136); padding:20px 20px 30px 40px; color:white;
+    background-color:black; padding:2px 2px 2px 2px; color:white;
     height: auto;
     /* margin-top: 60px */
-    margin: 10px;
+    margin: 2px;
     /* 水平 */
     text-align: center;
     /* 垂直 */
@@ -33,15 +33,15 @@ div {
 }
 
 .text-2 {
-    background-color: tomato;
-    color:yellow;
-    border: 2px solid salmon;
+    background-color: rgb(255, 255, 255);
+    color:black;
+    border: 2px white;
     padding: 10px;
 }
 
 .text-3 {
     border-radius: 5px;
-    color:pink;
+    color:rgb(228, 136, 15);
     padding:20px;
 }
 
@@ -55,9 +55,9 @@ div {
 }
 
 .sub-title {
-    background-color:purple;
+    background-color:rgb(236, 229, 229);
     border-radius:10px;
-    color:white;
+    color:black;
     padding:5px;
 }
 
@@ -79,19 +79,19 @@ div {
 .block-2{
     font-size:20px;
     font-style:italic;
-    background-color:darksalmon;
+    background-color:rgb(228, 136, 15);
     border-radius: 10px;
     padding:10px;
     color: firebrick;
 }
 
 .block-2 a{
-    color:forestgreen;
+    color:rgb(238, 228, 228);
 }
 
 
 .block-3 table{
-    border:2px solid black;
+    border:2px solid rgb(250, 250, 250);
     width : 90%;
     margin: 0px auto;
     height: 300px;
@@ -100,11 +100,11 @@ div {
 }
 
 .block-3>table>thead>tr>th{
-    background-color: rgb(57, 117, 0);
+    background-color: rgb(216, 123, 47);
 }
 
 .block-3 tr{
-    background-color: pink;
+    background-color: rgb(15, 15, 15);
     /* text-align: center; */
     font-size:16px;
 }
@@ -128,17 +128,19 @@ input, label, textarea, button{
 
 button{
     width:100px;
-    background-color: green;
+    background-color: rgb(226, 86, 76);
     color:white;
 }
 
 #idol{
-    padding:20px;
+    padding:10px;
+    height: 250px;
+    margin-top: 20px;
 }
 
 #idol img{
     border-radius:10px;
     float:right;
-    margin: 20px;
+    margin: 5px;
 }
 
