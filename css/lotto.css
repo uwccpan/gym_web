@@ -1,0 +1,75 @@
+/* 加米 代表全域設定的意思 把所有的內外間距全部歸零 */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{    
+    padding: 20px;
+    background-color: rgb(9, 75, 87);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{   
+    width:80%;
+    margin: 20px auto;   
+    text-align: center;      
+}
+
+#banner{  
+    width: auto;
+    margin: 0px auto;
+    padding: 10px;
+    font-size: 32px;
+    background-color: rgb(228, 205, 3);
+    color: rgb(187, 16, 16);  
+    font-weight: bold;     
+}
+
+.show-time{
+    margin-top: 20px;
+    color: white;
+}
+
+table{    
+    width: 320px;
+    margin: 20px auto;
+    border:2px violet solid;
+    font-size: 20px;
+    color:white;    
+}
+
+.btn-el{
+    margin-top: 40px;
+    width: auto;
+    background-color: rgb(196, 60, 60);
+    font-size: large;    
+    color: white;
+}
+
+
+td{
+    padding: 5px;
+}
+
+/* 特別號 指最後一格 */
+td:last-child{
+    background-color: tomato;
+}
+
+/* RWD 寫法 */
+@media screen and (max-width:640px){
+    #banner{
+        width: 200px;
+        font-size: 24px;
+    }
+    table{
+        width: 220px;
+        font-size: 12px;
+    }
+
+    .btn-el{
+        margin-top: 20px;
+    }
+}
+

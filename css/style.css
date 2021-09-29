@@ -144,3 +144,11 @@ button{
     margin: 5px;
 }
 
+.main_index {
+    color:aliceblue;
+    background-color:rgb(14, 56, 73); padding:20px; color:white;
+    height:auto;
+    border:2px rgb(255, 255, 255) solid;
+    border-radius:10px;    
+}
+
